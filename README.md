@@ -1,8 +1,6 @@
 # Cricket Team
 
-Given two files `app.js` and a database file `cricketTeam.db` consisting a table `cricket_team`.
-
-Write APIs to perform operations on the table `cricket_team` containing the following columns,
+Writing APIs to perform operations on the table `cricket_team` containing the following columns,
 
 | Columns       | Type    |
 | ------------- | ------- |
