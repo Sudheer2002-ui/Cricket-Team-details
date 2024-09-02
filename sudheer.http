@@ -1,0 +1,27 @@
+### Get all players
+GET http://localhost:3000/players/
+### Create a new player
+POST http://localhost:3000/players/
+Content-Type: application/json
+
+{
+  "playerName": "Vishal",
+  "jerseyNumber": 17,
+  "role": "Bowler"
+}
+
+###
+### Get Player Details
+GET http://localhost:3000/players/2/
+Content-Type: application/json
+### Update Player Details
+PUT http://localhost:3000/players/1
+Content-Type: application/json
+{
+  "playerName": "Maneesh",
+  "jerseyNumber": 54,
+  "role": "All-rounder"
+}
+
+### Delete Player
+DELETE http://localhost:3000/players/1
